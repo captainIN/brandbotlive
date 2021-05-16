@@ -1,0 +1,23 @@
+.header{
+    width: 100%;
+    padding: 1px 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 40px;
+    border-radius: 30px;
+}
+.live-blink{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 20px;
+}
+.live-dot{
+    width: 30px;
+}

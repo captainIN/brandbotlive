@@ -1,29 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #f1f2f9;
+  font-family: 'Poppins', sans-serif;
+  width: 320px;
 }
 
 * {
   box-sizing: border-box;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 code {
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
 .container {
@@ -32,4 +26,16 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.sender-msg{
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: #ffffff;
+  color: #2f324a;
+  border-radius: 5px 0px 28px 5px;
+  max-width: 250px;
+  float: right;
+  margin-right: 19px;
+  box-shadow: 0px 0px 10px #00000012;
 }
